@@ -5,6 +5,7 @@ import Dashboard from './components/Dashboard';
 import FormSecurity from './components/FormSecurity';
 import Task1PAGE from './Pages/Task1PAGE';
 import Task2Page from './Pages/Task2Page';
+import { FaRegGrinStars } from "react-icons/fa";
 // import { validEmail } from './regex';
 
 function App() {
@@ -59,8 +60,20 @@ function App() {
     }
   };
 
+  const arr=["vinay","rohit","shyam"]
+
   return (
     <div className="app-container">
+
+
+      {
+
+        arr.map((item)=><h1>
+          
+         <span><FaRegGrinStars>{item}</FaRegGrinStars></span> 
+          </h1>)
+        
+      }
       {/* <form onSubmit={handleSubmit}>
         <div>
           <label>Name:</label>
@@ -88,8 +101,8 @@ function App() {
      
       {/* <Dashboard></Dashboard> */}
       {/* <FormSecurity></FormSecurity> */}
-      <Task1PAGE></Task1PAGE>
-      <Task2Page></Task2Page>
+      {/* <Task1PAGE></Task1PAGE>
+      <Task2Page></Task2Page> */}
     </div>
 
 
