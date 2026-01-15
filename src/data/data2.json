@@ -1,0 +1,125 @@
+{
+  "accordion": [
+    {
+      "id": "1",
+      "title": "Frontend",
+      "content": "Client-side development stack",
+      "children": [
+        {
+          "id": "1-1",
+          "title": "HTML & CSS",
+          "content": "Markup and styling"
+        },
+        {
+          "id": "1-2",
+          "title": "JavaScript",
+          "content": "Programming language of the web",
+          "children": [
+            {
+              "id": "1-2-1",
+              "title": "Basics",
+              "content": "Variables, loops, functions"
+            },
+            {
+              "id": "1-2-2",
+              "title": "Advanced",
+              "content": "Closures, promises, async/await"
+            }
+          ]
+        },
+        {
+          "id": "1-3",
+          "title": "Frameworks",
+          "content": "Frontend frameworks",
+          "children": [
+            {
+              "id": "1-3-1",
+              "title": "React",
+              "content": "Component-based UI",
+              "children": [
+                {
+                  "id": "1-3-1-1",
+                  "title": "Hooks",
+                  "content": "useState, useEffect, custom hooks"
+                },
+                {
+                  "id": "1-3-1-2",
+                  "title": "State Management",
+                  "content": "Redux, Context API"
+                }
+              ]
+            },
+            {
+              "id": "1-3-2",
+              "title": "Vue",
+              "content": "Progressive framework"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Backend",
+      "content": "Server-side development",
+      "children": [
+        {
+          "id": "2-1",
+          "title": "Node.js",
+          "content": "JavaScript runtime",
+          "children": [
+            {
+              "id": "2-1-1",
+              "title": "Express",
+              "content": "Routing and middleware"
+            },
+            {
+              "id": "2-1-2",
+              "title": "Authentication",
+              "content": "JWT, OAuth, Sessions"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "title": "Databases",
+          "content": "Data storage systems",
+          "children": [
+            {
+              "id": "2-2-1",
+              "title": "SQL",
+              "content": "MySQL, PostgreSQL"
+            },
+            {
+              "id": "2-2-2",
+              "title": "NoSQL",
+              "content": "MongoDB, Firebase"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "DevOps",
+      "content": "Deployment and infrastructure",
+      "children": [
+        {
+          "id": "3-1",
+          "title": "Git",
+          "content": "Version control system"
+        },
+        {
+          "id": "3-2",
+          "title": "CI/CD",
+          "content": "Automated pipelines"
+        },
+        {
+          "id": "3-3",
+          "title": "Docker",
+          "content": "Containerization"
+        }
+      ]
+    }
+  ]
+}

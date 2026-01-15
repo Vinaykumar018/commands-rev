@@ -1,0 +1,74 @@
+{
+  "accordion": [
+    {
+      "id": "1",
+      "title": "Frontend",
+      "content": "Frontend technologies",
+      "children": [
+        {
+          "id": "1-1",
+          "title": "React",
+          "content": "React basics and advanced topics",
+          "children": [
+            {
+              "id": "1-1-1",
+              "title": "Hooks",
+              "content": "useState, useEffect, custom hooks"
+            },
+            {
+              "id": "1-1-2",
+              "title": "State Management",
+              "content": "Redux, Context API"
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "title": "Angular",
+          "content": "Angular framework overview"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Backend",
+      "content": "Backend technologies",
+      "children": [
+        {
+          "id": "2-1",
+          "title": "Node.js",
+          "content": "Node.js runtime",
+          "children": [
+            {
+              "id": "2-1-1",
+              "title": "Express",
+              "content": "Routing and middleware"
+            },
+            {
+              "id": "2-1-2",
+              "title": "Authentication",
+              "content": "JWT, OAuth"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "title": "Databases",
+          "content": "SQL and NoSQL databases",
+          "children": [
+            {
+              "id": "2-2-1",
+              "title": "MySQL",
+              "content": "Relational database"
+            },
+            {
+              "id": "2-2-2",
+              "title": "MongoDB",
+              "content": "NoSQL document database"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
